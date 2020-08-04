@@ -1,9 +1,8 @@
 package exerase;
 
-
 import java.util.Scanner;
 
-public class chapten4_1 {
+public class chapten4_2 {
     public static void main (String[] args ){
         Scanner Scanner = new Scanner(System.in);
 
@@ -18,25 +17,6 @@ public class chapten4_1 {
         int d = Scanner.nextInt();
         System.out.print("Enter f test 5: ");
         int f = Scanner.nextInt();
-        System.out.print("Enter e test 6: ");
-        int e = Scanner.nextInt();
-        System.out.print("Enter m test 7: ");
-        int m = Scanner.nextInt();
-        System.out.print("Enter y test 8: ");
-        int y = Scanner.nextInt();
-        System.out.print("Enter u test 9: ");
-        int u = Scanner.nextInt();
-        System.out.print("Enter k test 10: ");
-        int k = Scanner.nextInt();
-
-
-
-
-
-    }
-
 
 
 }
-
-
