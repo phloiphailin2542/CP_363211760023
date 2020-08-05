@@ -28,6 +28,9 @@ public class chapten4_2 {
         System.out.print("Enter ff test 55:  ");
         float ff = Scanner.nextFloat();
 
+        //display
+        System.out.println(a +" "+b+" "+c+" "+d+" "+f);
+
 
 }
 }

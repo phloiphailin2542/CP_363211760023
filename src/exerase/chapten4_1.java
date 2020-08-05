@@ -29,6 +29,13 @@ public class chapten4_1 {
         System.out.print("Enter k test 10: ");
         int k = Scanner.nextInt();
 
+        int total = a + b + c + d + f + e + m + y + u + k;
+        int avg = total / 10;
+         //display result
+        System.out.println("Total : " + total);
+        System.out.println("Average : " + avg);
+
+
 
 
 
