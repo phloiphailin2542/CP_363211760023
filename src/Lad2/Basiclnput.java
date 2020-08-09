@@ -19,5 +19,6 @@ public class Basiclnput {
         String nickname = scanner.nextLine();
         System.out.println("you nick name in "+name);
 
+
     }//main
 }

@@ -32,5 +32,6 @@ public class chapten4_2 {
         System.out.println(a +" "+b+" "+c+" "+d+" "+f);
 
 
+
 }
 }

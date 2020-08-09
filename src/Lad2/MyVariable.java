@@ -50,7 +50,6 @@ public class MyVariable {
 
 
 
-
      }//main
 
 
