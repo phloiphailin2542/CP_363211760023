@@ -9,7 +9,13 @@ public class chapten4_3 {
         System.out.println("Enter your name:  ");
         String name = Scanner.nextLine();
 
-        System.out.
+        System.out.print("Enter your age: ");
+        int x = Scanner.nextInt();
+
+
+        System.out.print("Enter your email: ");
+        String email = Scanner.nextLine();
+
     }
 
 

@@ -5,11 +5,11 @@ import java.util.Scanner;
 
 public class Example_if_else_if {
     public static void  main(String [] args) {
-        Scanner Scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         // input score
         System.out.print("Enter you score");
-        double score = scanner.nextDoubole();
+        double score = scanner.nextDouble();
         //test condition
         // F  = 0 - 49.99
         // D  = 50 - 54.99
@@ -35,7 +35,14 @@ public class Example_if_else_if {
             System.out.println("You grade is B+.");
         } else if (score >= 80.00 && score <= 100.00) {
             System.out.println("You grade is A");
+        }else {
+
+            // coding here.....
+            System.out.println("please, input score between 0-100. Thank you");
         }
+
+
+
 
 
 
