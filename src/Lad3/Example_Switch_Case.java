@@ -3,7 +3,6 @@ package Lad3;
 import java.util.Scanner;
 
 public class Example_Switch_Case {
-
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);

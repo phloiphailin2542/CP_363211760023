@@ -19,4 +19,5 @@ public class Example_For2 {
         System.out.println("Total: " + total);
         System.out.println("Average: " + total/10);
     }
+
 }

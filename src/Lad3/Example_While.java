@@ -3,7 +3,6 @@ package Lad3;
 import java.util.Scanner;
 
 public class Example_While {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num =1;
@@ -15,4 +14,5 @@ public class Example_While {
         }
         System.out.println("Good Bye.");
     }
+
 }
