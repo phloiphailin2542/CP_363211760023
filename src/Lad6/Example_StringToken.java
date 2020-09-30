@@ -1,9 +1,9 @@
-package  Lab6;
+package  Lad6;
 
 import java.util.StringTokenizer;
 
-public class Example_StringToken{
-    public static void  main(String[] args){
+public class Example_StringToken {
+    public static void main(String[] args) {
         StringBuffer str = new StringBuffer("Mind Mapping แผนภูมิความคิดเพื่อแก้ไขปัญหา\n" +
                 "\n" +
                 "การทำแผนภูมิความคิดหรือ Mind Mapping ถือเป็นการกระตุ้นสมอง ให้เกิดความคิดที่เป็น อิสระจากปัญหาที่เป็นศูนย์กลาง ออกไปสู่วิธีแก้ปัญหาต่างๆ " +
@@ -19,9 +19,15 @@ public class Example_StringToken{
                 "ถ้าใครคิดวิธีการอะไรได้ต้องกล้าพูดอกมา และอย่าอายที่จะนำความคิดของคนอื่น มาผสมผสานกับความคิดของตน เพื่อสร้างเป็นความคิดใหม่… " +
                 "นอกจากนี้ยังต้องมีการวางขั้นตอนในการระดมสมองให้เป็นลำดับ เช่น กำหนดเวลาในการระดมสมอง กำหนดให้มีคนจดวิธีแก้ปัญหา " +
                 "เขียนสาเหตุของปัญหาที่ต้องการจะแก้ให้เห็นชัดเจน และให้สมาชิกทุกคนแสดงความคิดเห็นเรียงกันไปทีละคน ที่สำคัญต้องจดทุกความคิด" +
-                "เพื่อนำไปประเมินและคัดเลือกในภายหลังครับ.")
-                StringTokenizer strToken = new StringTokenizer(Str.toString());
+                "เพื่อนำไปประเมินและคัดเลือกในภายหลังครับ.");
+        StringTokenizer strToken = new StringTokenizer(str.toString());
+        int countWord = strToken.countTokens();
+        System.out.println("Word count: " + countWord);
 
+        while (strToken.hasMoreTokens()) {
+            System.out.println(strToken.nextToken());
+
+        }
     }
-}
 
+}
